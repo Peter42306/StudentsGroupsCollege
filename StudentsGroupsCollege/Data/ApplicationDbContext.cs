@@ -50,14 +50,14 @@ namespace StudentsGroupsCollege.Data
             // Groups
             modelBuilder.Entity<CollegeGroup>().HasData(
                 new CollegeGroup { Id = 1, Name = "ENG-101", CollegeId = 1, Description = "Lorem ipsum dolor sit amet, consectetur  deserunt mollit minim veniam, quis anim id est adipiscing elit." },
-    new CollegeGroup { Id = 2, Name = "ENG-102", CollegeId = 1, Description = "Sed do eiusmod tempor incididunt ut labore et dolore." },
-    new CollegeGroup { Id = 3, Name = "CS-201", CollegeId = 2, Description = "Ut enim ad minim veniam, quis nostrudi rure dolor in exercitation." },
-    new CollegeGroup { Id = 4, Name = "NAV-101", CollegeId = 2, Description = "Duis aute irure dolor in reprehenderit in voluptate." },
-    new CollegeGroup { Id = 5, Name = "LOG-202", CollegeId = 2, Description = "Excepteur sint  occaecat cupidatat non proident sunt." },
-    new CollegeGroup { Id = 6, Name = "MAR-203", CollegeId = 2, Description = "Culpa qui officia deserunt mollit anim id est laborum." },
-    new CollegeGroup { Id = 7, Name = "BUS-101", CollegeId = 3, Description = "Lorem ipsum dolor sit amet, consectetur adipiscing elit." },
-    new CollegeGroup { Id = 8, Name = "MKT-202", CollegeId = 3, Description = "Nisi ut aliquip ex ea commodo consequat minim veniam, quis nostrud ullamco laboris." },
-    new CollegeGroup { Id = 9, Name = "FIN-303", CollegeId = 3, Description = "Tempor incididunt ut labore et dolore magna aliqua." }
+                new CollegeGroup { Id = 2, Name = "ENG-102", CollegeId = 1, Description = "Sed do eiusmod tempor incididunt ut labore et dolore." },
+                new CollegeGroup { Id = 3, Name = "CS-201", CollegeId = 2, Description = "Ut enim ad minim veniam, quis nostrudi rure dolor in exercitation." },
+                new CollegeGroup { Id = 4, Name = "NAV-101", CollegeId = 2, Description = "Duis aute irure dolor in reprehenderit in voluptate." },
+                new CollegeGroup { Id = 5, Name = "LOG-202", CollegeId = 2, Description = "Excepteur sint  occaecat cupidatat non proident sunt." },
+                new CollegeGroup { Id = 6, Name = "MAR-203", CollegeId = 2, Description = "Culpa qui officia deserunt mollit anim id est laborum." },
+                new CollegeGroup { Id = 7, Name = "BUS-101", CollegeId = 3, Description = "Lorem ipsum dolor sit amet, consectetur adipiscing elit." },
+                new CollegeGroup { Id = 8, Name = "MKT-202", CollegeId = 3, Description = "Nisi ut aliquip ex ea commodo consequat minim veniam, quis nostrud ullamco laboris." },
+                new CollegeGroup { Id = 9, Name = "FIN-303", CollegeId = 3, Description = "Tempor incididunt ut labore et dolore magna aliqua." }
             );
 
             // Students
